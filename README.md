@@ -12,3 +12,7 @@ detects unusual volume that exceeds market cap in cheap coins before they have a
 respectful supply , after you get that list you must do you research
 to find out why , and you will get your hands on a massive pump using
 this filter and your researches
+
+# Credits:
+- @nt0x from EVE Robotics Family
+- [EVE Robotics](http://eve-robotics.com/)

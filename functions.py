@@ -1,5 +1,6 @@
-import requests
 import json
+
+import requests
 
 
 def get_all_pumps():
@@ -7,7 +8,7 @@ def get_all_pumps():
     data_set = requests.get('https://api.coinmarketcap.com/v1/ticker/?limit=0')
     data_set = json.loads(data_set.text)
     print "Analysing data sets "
-    print "This routine will find coing with possibility of massive run-up/pump."
+    print "This routine will find Cryptos  with possibility of massive run-up/pump."
     for each_coin in data_set:
         if each_coin['24h_volume_usd'] and each_coin['market_cap_usd'] and each_coin['total_supply'] and float(
                 each_coin['24h_volume_usd']) > float(each_coin['market_cap_usd']) and float(
